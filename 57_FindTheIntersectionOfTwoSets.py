@@ -9,4 +9,5 @@ print("Set 2:", set2)
 
 #Find the intersection of the two sets
 set_intersection = set1 & set2
+# set_intersection = set1.intersection(set2)
 print("Intersection of the two sets:", set_intersection)

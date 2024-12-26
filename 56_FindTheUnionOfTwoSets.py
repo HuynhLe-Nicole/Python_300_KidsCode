@@ -8,5 +8,6 @@ print("Set 1:", set1)
 print("Set 2:", set2)
 
 #Find the union of the two sets
-set_union = set1 | set2
+set_union = set1 | set2 
+# set_union = set1.union(set2)
 print("Union of the two sets:", set_union)
