@@ -7,4 +7,9 @@ def babylonia_sqrt(x):
     guess = x
     while abs(guess * guess - x) > 1e-10:
         guess = (guess + x / guess) / 2
-    return gue
+    return guess
+
+#Test
+x = 16
+print("Babylonian method:", babylonia_sqrt(x))
+print("math.sqrt:", math.sqrt(x))
